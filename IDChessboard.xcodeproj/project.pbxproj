@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		24579BBD2BFC36A200412992 /* NetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 24579BB52BFC36A100412992 /* NetworkClient.m */; };
-		24579BBE2BFC36A200412992 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24579BB72BFC36A100412992 /* ViewController.m */; };
 		24579BBF2BFC36A200412992 /* CheckeredBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24579BB82BFC36A100412992 /* CheckeredBoardView.m */; };
 		24579BC02BFC36A200412992 /* CheckeredView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24579BB92BFC36A100412992 /* CheckeredView.m */; };
 		24B9C9B22BFC34CB00C3A00C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B9C9B12BFC34CB00C3A00C /* AppDelegate.m */; };
@@ -18,16 +17,15 @@
 		24B9C9BD2BFC34CD00C3A00C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B9C9BC2BFC34CD00C3A00C /* Assets.xcassets */; };
 		24B9C9C02BFC34CD00C3A00C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B9C9BE2BFC34CD00C3A00C /* LaunchScreen.storyboard */; };
 		24B9C9C32BFC34CD00C3A00C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B9C9C22BFC34CD00C3A00C /* main.m */; };
+		51536F2C9A184448C7EDA743 /* Pods_IDChessboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3BB4A9C6E301BDEF6E8EA6 /* Pods_IDChessboard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24579BB52BFC36A100412992 /* NetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClient.m; sourceTree = "<group>"; };
 		24579BB62BFC36A100412992 /* CheckeredBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckeredBoardView.h; sourceTree = "<group>"; };
-		24579BB72BFC36A100412992 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../../pattern-invert/pattern-invert/ViewController.m"; sourceTree = "<group>"; };
 		24579BB82BFC36A100412992 /* CheckeredBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckeredBoardView.m; sourceTree = "<group>"; };
 		24579BB92BFC36A100412992 /* CheckeredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckeredView.m; sourceTree = "<group>"; };
 		24579BBA2BFC36A200412992 /* CheckeredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckeredView.h; sourceTree = "<group>"; };
-		24579BBB2BFC36A200412992 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../../pattern-invert/pattern-invert/ViewController.h"; sourceTree = "<group>"; };
 		24579BBC2BFC36A200412992 /* NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
 		24B9C9AD2BFC34CB00C3A00C /* IDChessboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDChessboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B9C9B02BFC34CB00C3A00C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +39,9 @@
 		24B9C9BF2BFC34CD00C3A00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24B9C9C12BFC34CD00C3A00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24B9C9C22BFC34CD00C3A00C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C3BB4A9C6E301BDEF6E8EA6 /* Pods_IDChessboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDChessboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B90AE6098CC1DA6F3CE5E06 /* Pods-IDChessboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDChessboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDChessboard/Pods-IDChessboard.release.xcconfig"; sourceTree = "<group>"; };
+		B1C5B9072FE405BD05AF964A /* Pods-IDChessboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDChessboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDChessboard/Pods-IDChessboard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51536F2C9A184448C7EDA743 /* Pods_IDChessboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +61,8 @@
 			children = (
 				24B9C9AF2BFC34CB00C3A00C /* IDChessboard */,
 				24B9C9AE2BFC34CB00C3A00C /* Products */,
+				9BF8F717A8E7D1DC6D58D510 /* Pods */,
+				8BB99EF453EF682E957C391F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,8 +83,6 @@
 				24579BB92BFC36A100412992 /* CheckeredView.m */,
 				24579BBC2BFC36A200412992 /* NetworkClient.h */,
 				24579BB52BFC36A100412992 /* NetworkClient.m */,
-				24579BBB2BFC36A200412992 /* ViewController.h */,
-				24579BB72BFC36A100412992 /* ViewController.m */,
 				24B9C9B02BFC34CB00C3A00C /* AppDelegate.h */,
 				24B9C9B12BFC34CB00C3A00C /* AppDelegate.m */,
 				24B9C9B32BFC34CB00C3A00C /* SceneDelegate.h */,
@@ -96,6 +98,23 @@
 			path = IDChessboard;
 			sourceTree = "<group>";
 		};
+		8BB99EF453EF682E957C391F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C3BB4A9C6E301BDEF6E8EA6 /* Pods_IDChessboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BF8F717A8E7D1DC6D58D510 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1C5B9072FE405BD05AF964A /* Pods-IDChessboard.debug.xcconfig */,
+				7B90AE6098CC1DA6F3CE5E06 /* Pods-IDChessboard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24B9C9C62BFC34CD00C3A00C /* Build configuration list for PBXNativeTarget "IDChessboard" */;
 			buildPhases = (
+				DC7B38B9E02712236D0578D0 /* [CP] Check Pods Manifest.lock */,
 				24B9C9A92BFC34CB00C3A00C /* Sources */,
 				24B9C9AA2BFC34CB00C3A00C /* Frameworks */,
 				24B9C9AB2BFC34CB00C3A00C /* Resources */,
+				388B595A1DE8B7AC3FDF2521 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,12 +182,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		388B595A1DE8B7AC3FDF2521 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IDChessboard/Pods-IDChessboard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IDChessboard/Pods-IDChessboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC7B38B9E02712236D0578D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IDChessboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24B9C9A92BFC34CB00C3A00C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24579BBE2BFC36A200412992 /* ViewController.m in Sources */,
 				24579BBD2BFC36A200412992 /* NetworkClient.m in Sources */,
 				24B9C9B82BFC34CB00C3A00C /* ViewController.m in Sources */,
 				24579BC02BFC36A200412992 /* CheckeredView.m in Sources */,
@@ -311,6 +370,7 @@
 		};
 		24B9C9C72BFC34CD00C3A00C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C5B9072FE405BD05AF964A /* Pods-IDChessboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -327,6 +387,7 @@
 		};
 		24B9C9C82BFC34CD00C3A00C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B90AE6098CC1DA6F3CE5E06 /* Pods-IDChessboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

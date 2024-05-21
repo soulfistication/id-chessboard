@@ -1,23 +1,25 @@
 //
 //  ViewController.m
-//  IDChessboard
+//  pattern-invert
 //
-//  Created by Iván Almada on 20/05/24.
-//  Copyright © 2024 Iván Almada. All rights reserved.
+//  Created by Iván Almada on 2/20/24.
 //
 
 #import "ViewController.h"
+#import "CheckeredBoardView.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet CheckeredBoardView *checkeredBoardView;
 
 @end
 
 @implementation ViewController
 
+#pragma mark - UIViewController
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
-
 
 @end

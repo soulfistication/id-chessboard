@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24579BBD2BFC36A200412992 /* NetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 24579BB52BFC36A100412992 /* NetworkClient.m */; };
+		24579BBE2BFC36A200412992 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24579BB72BFC36A100412992 /* ViewController.m */; };
+		24579BBF2BFC36A200412992 /* CheckeredBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24579BB82BFC36A100412992 /* CheckeredBoardView.m */; };
+		24579BC02BFC36A200412992 /* CheckeredView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24579BB92BFC36A100412992 /* CheckeredView.m */; };
 		24B9C9B22BFC34CB00C3A00C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B9C9B12BFC34CB00C3A00C /* AppDelegate.m */; };
 		24B9C9B52BFC34CB00C3A00C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B9C9B42BFC34CB00C3A00C /* SceneDelegate.m */; };
 		24B9C9B82BFC34CB00C3A00C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B9C9B72BFC34CB00C3A00C /* ViewController.m */; };
@@ -17,6 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24579BB52BFC36A100412992 /* NetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClient.m; sourceTree = "<group>"; };
+		24579BB62BFC36A100412992 /* CheckeredBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckeredBoardView.h; sourceTree = "<group>"; };
+		24579BB72BFC36A100412992 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../../pattern-invert/pattern-invert/ViewController.m"; sourceTree = "<group>"; };
+		24579BB82BFC36A100412992 /* CheckeredBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckeredBoardView.m; sourceTree = "<group>"; };
+		24579BB92BFC36A100412992 /* CheckeredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckeredView.m; sourceTree = "<group>"; };
+		24579BBA2BFC36A200412992 /* CheckeredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckeredView.h; sourceTree = "<group>"; };
+		24579BBB2BFC36A200412992 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../../pattern-invert/pattern-invert/ViewController.h"; sourceTree = "<group>"; };
+		24579BBC2BFC36A200412992 /* NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
 		24B9C9AD2BFC34CB00C3A00C /* IDChessboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDChessboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B9C9B02BFC34CB00C3A00C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24B9C9B12BFC34CB00C3A00C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +73,14 @@
 		24B9C9AF2BFC34CB00C3A00C /* IDChessboard */ = {
 			isa = PBXGroup;
 			children = (
+				24579BB62BFC36A100412992 /* CheckeredBoardView.h */,
+				24579BB82BFC36A100412992 /* CheckeredBoardView.m */,
+				24579BBA2BFC36A200412992 /* CheckeredView.h */,
+				24579BB92BFC36A100412992 /* CheckeredView.m */,
+				24579BBC2BFC36A200412992 /* NetworkClient.h */,
+				24579BB52BFC36A100412992 /* NetworkClient.m */,
+				24579BBB2BFC36A200412992 /* ViewController.h */,
+				24579BB72BFC36A100412992 /* ViewController.m */,
 				24B9C9B02BFC34CB00C3A00C /* AppDelegate.h */,
 				24B9C9B12BFC34CB00C3A00C /* AppDelegate.m */,
 				24B9C9B32BFC34CB00C3A00C /* SceneDelegate.h */,
@@ -146,9 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24579BBE2BFC36A200412992 /* ViewController.m in Sources */,
+				24579BBD2BFC36A200412992 /* NetworkClient.m in Sources */,
 				24B9C9B82BFC34CB00C3A00C /* ViewController.m in Sources */,
+				24579BC02BFC36A200412992 /* CheckeredView.m in Sources */,
 				24B9C9B22BFC34CB00C3A00C /* AppDelegate.m in Sources */,
 				24B9C9C32BFC34CD00C3A00C /* main.m in Sources */,
+				24579BBF2BFC36A200412992 /* CheckeredBoardView.m in Sources */,
 				24B9C9B52BFC34CB00C3A00C /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
